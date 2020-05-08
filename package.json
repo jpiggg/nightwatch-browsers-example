@@ -1,0 +1,31 @@
+{
+  "name": "nightwatch-extend-assert-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "selenium:install": "selenium-standalone install",
+    "selenium:start": "selenium-standalone start",
+    "test": "nightwatch",
+    "test:ie": "nightwatch -e 'ie'",
+    "test:ios": "nightwatch -e 'ios'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dolinskaya/nightwatch-extend-assert-example.git"
+  },
+  "keywords": [],
+  "author": "dolinskaya <dolinskaya@tutu.tech>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dolinskaya/nightwatch-extend-assert-example/issues"
+  },
+  "homepage": "https://github.com/Dolinskaya/nightwatch-extend-assert-example#readme",
+  "dependencies": {
+    "nightwatch": "https://github.com/Dolinskaya/nightwatch.git",
+    "nightwatch-html-reporter": "^2.0.6"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^6.17.0"
+  }
+}
